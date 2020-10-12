@@ -1,0 +1,45 @@
+body{
+	background-image: url("party.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+h2{
+	font-family: verdana;
+	color: #C45844;
+	font-weight: bold;
+	font-size: 36px;
+	padding: 150px;
+}
+label{
+	padding: 100px;
+	font-family:verdana;
+	color: #CFCFCE;
+	font-style: italic;
+}
+input[type = text]{
+	margin: 150px;
+	width: 50%;
+	border: none;
+	border-bottom: 4px solid #FAFAF8;
+	color: #CFCFCE;
+	background: none;
+	box-sizing: border box;
+	
+}
+
+input[type=button]{
+	background-color: #FF0040;
+	color: #FBEFF5;
+	font-family: verdana;
+	border: #FBEFF5 3px;
+	cursor: pointer;
+	padding: 10px;
+	size: 100px;
+	
+}
+input::placeholder{
+	color: #fef3f3;
+	font-family: verdana;
+	font-style: italic;
+	
+}
